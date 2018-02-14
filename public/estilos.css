@@ -1,0 +1,27 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.portada {
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    height: 100vh;
+    flex-direction: column;
+    align-items:center; /*baseline*/
+    justify-content: center
+}
+
+h1, h2, p {
+    color: azure
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items:center; /*baseline*/
+    justify-content: center
+}
+
